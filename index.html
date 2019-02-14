@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>P.S. I love you</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+
+  <div id="logo" onclick="slowScroll()">
+      <span>Только твой</span>
+    </div>
+      <div id="about">
+          <a href="#" title="Для моей любимой" onclick="slowScroll('#top')">Для моей любимой</a>
+          <a href="#" onclick="slowScroll('#main')" title="Вместе навсегда">Вместе навсегда</a>
+          <a href="#" onclick="slowScroll('#overview')" title="Самые счастливые">Самые счастливые</a>
+
+      </div>
+  </header>
+
+
+
+  <div id="top">
+
+
+    <h1>Моя любовь к тебе бесконечна как вселенная</h1>
+    <h3>Люблю тебя, как небо любит свет,
+Ведь никого прекрасней в мире нет.
+Моя вселенная, мой мир, моя мечта —
+Ты девушка любимая моя.
+
+Я признаваться в этом не устану —
+Тебя любить я никогда не перестану.
+Скажу я снова, чувства не тая:
+Люблю тебя, бесценная моя.
+
+Я пронесу свою любовь через невзгоды,
+У чувств моих не будет непогоды.
+Мы пустим мир и счастье на порог,
+И стороной нас обойдет недобрый рок.
+</h3>
+
+  </div>
+  <div id="main">
+<div class="intro">
+
+  <h2>Наши отношения пережили много взлетов и падений</h2>
+
+  <span>Но несмотря на все невзгоды мы будем вместе</span>
+  <h2> Forever </h2>
+
+  <div class="img">
+    <img src="https://photo.vesti-ukr.com/img/gallery/2249/12/170916_main.jpg"
+    width="600px" height="500px"
+    al="">
+
+  </div>
+
+<div class="text"
+  ul
+
+        <li><span1></span1></li>
+
+
+<li><span2> </span2></li>
+
+
+<li><span3> </span3></li>
+</div>
+</div>
+</div>
+<div id="overview">
+
+  <h2>Вместе мы самые счастливые</h2>
+  <h4> Немного наших совместных фото</h4>
+
+  <div class="img">
+    <img src="https://pp.userapi.com/c850232/v850232479/dcde3/qeJzIWhbnLw.jpg"
+    width="auto" height="auto"
+    al="">
+
+  </div>
+
+  <div class="img">
+    <img src="https://pp.userapi.com/c850232/v850232479/dcdd2/GyZ6GLe1Yks.jpg"
+    width="auto" height="auto"
+
+    alt="">
+
+  </div>
+
+  <div class="img">
+
+    <img src="https://pp.userapi.com/c850232/v850232479/dcdbf/E2hGZtGxYes.jpg"
+width="auto" height="auto"
+  alt="">
+
+  </div>
+
+  <div class="img">
+
+    <img src="https://pp.userapi.com/c850232/v850232479/dcdad/pC6jCleDHaM.jpg"
+    width="auto" height="auto"
+  alt="">
+
+  </div>
+</div>
+
+
+
+ </form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+  function slowScroll(id) {
+   $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+
+  $(document).on("scroll", function () {
+    if ($(window).scrollTop() === 0)
+    $("header").removeClass("fixed");
+    else
+    $("header").attr("class","fixed");
+  });
+    </script>
+</body>
+</html>
